@@ -1,4 +1,6 @@
 # Tauri + React + Typescript
+status:
+[![publish](https://github.com/N3koSempai/Aution/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/N3koSempai/Aution/actions/workflows/main.yml)
 
 This template should help get you started developing with Tauri, React and Typescript in Vite.
 
