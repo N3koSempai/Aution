@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { exists, BaseDirectory } from "@tauri-apps/plugin-fs";
 import {
 	Box,
@@ -86,7 +86,7 @@ export default function MusicPlayer() {
 	const [currentSong, setCurrentSong] = useState(0);
 	const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 	const [visualizerHeights, setVisualizerHeights] = useState(Array(20).fill(0));
-
+	const visal  = useRef()
 	const handlePlayPause = () => {
 		setIsPlaying(!isPlaying);
 	};
