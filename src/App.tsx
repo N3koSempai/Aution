@@ -86,7 +86,7 @@ export default function MusicPlayer() {
 	const [currentSong, setCurrentSong] = useState(0);
 	const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 	const [visualizerHeights, setVisualizerHeights] = useState(Array(20).fill(0));
-
+	const [visal, setvisal] = useRef()
 	const handlePlayPause = () => {
 		setIsPlaying(!isPlaying);
 	};
