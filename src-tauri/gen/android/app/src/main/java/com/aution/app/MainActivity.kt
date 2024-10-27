@@ -1,3 +1,3 @@
-package com.neksempai.aution
+package com.aution.app
 
 class MainActivity : TauriActivity()

@@ -1,11 +1,12 @@
 {
+  "$schema": "https://schema.tauri.app/config/2",
   "productName": "aution",
-  "version": "0.0.1",
-  "identifier": "com.neksempai.aution",
+  "version": "0.1.0",
+  "identifier": "com.aution.app",
   "build": {
-    "beforeDevCommand": "pnpm dev",
+    "beforeDevCommand": "bun run dev",
     "devUrl": "http://localhost:1420",
-    "beforeBuildCommand": "pnpm build",
+    "beforeBuildCommand": "bun run build",
     "frontendDist": "../dist"
   },
   "app": {
